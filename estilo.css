@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 2px;
+    width: 500px;
+    transform: translate(83%, -0%);
+}
+
+.box div {
+    flex: 1 1 calc(33.333% - 6px);
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+
+}
